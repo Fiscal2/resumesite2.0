@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveMind Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wave_style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<header>
+    <div class="container">
+
+        <h1 class="logo">Zac's Resume <span>Site</span></h1>
+
+        <nav class="site-nav">
+            <ul>
+                <li><a href=""><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+                <li><a href="index.html"><i class="fa fa-info site-nav--icon"></i>Zac</a></li>
+                <li><a href="spacex.html"><i class="fa fa-pencil site-nav--icon"></i>SpaceX</a></li>
+                <li><a href=""><i class="fa fa-envelope site-nav--icon"></i>Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-toggle">
+            <div class="hamburger"></div>
+        </div>
+    </div>
+</header>
+<body>
+    <section class="blue">
+        <h1>Welcome to the Wave</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsam quisquam labore atque quam, alias
+            ipsa aspernatur veniam accusantium sint.
+            Qui, earum commodi nam fugit quas ullam impedit eligendi exercitationem?</p>
+    </section>
+    <div class="layered-waves-blue wave-spacer"></div>
+    <section>
+        <h1>Shallow Water Waves</h1>
+        <p>Voluptatibus aut numquam saepe non odit sed inventore vel pariatur blanditiis fugiat modi labore, fugit
+            similique perspiciatis.
+            Delectus doloremque voluptatum sint inventore impedit, libero adipisci!
+            Reiciendis quis labore nam magni!</p>
+    </section>
+    <div class="waves-dark-purple wave-spacer"></div>
+    <section class="purple">
+        <h1>Deep Water Waves</h1>
+        <p>Cumque iure ab fugit aperiam molestias impedit sunt numquam eligendi consequuntur!
+            Repellendus quo, eum est aperiam deserunt a! Cumque inventore ex quisquam,
+            qui et delectus laudantium rerum voluptatibus beatae. Veniam.</p>
+    </section>
+    <div class="layered-waves-purple wave-spacer"></div>
+    <section>
+        <h1>Rogue Waves</h1>
+        <p>Ipsa cupiditate, veritatis dolor odio perspiciatis nobis?
+            Officia, sit? Neque asperiores optio quia veritatis perferendis repellendus dolore et dicta eos quod illo,
+            officia ab inventore minus reiciendis aspernatur sequi incidunt.</p>
+    </section>
+    <div class="layered-waves-green wave-spacer"></div>
+</body>
+<script>
+    $('.menu-toggle').click(function () {
+        $('.site-nav').toggleClass('site-nav--open', 500);
+        $(this).toggleClass('open');
+    })
+</script>
+
+</html>
