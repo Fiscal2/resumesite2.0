@@ -1,0 +1,24 @@
+@import "main.css";
+
+.layered-waves-blue{
+    background-image: url('assets/layered-waves-blue.svg')
+}
+
+.layered-waves-purple{
+    background-image: url('assets/layered-waves-purple.svg')
+}
+
+.layered-waves-green{
+  background-image: url('assets/layered-waves-green.svg')
+}
+
+.waves-dark-purple{
+    background-image: url('assets/wave-dark-purple.svg');
+}
+.blue{
+    background: #49a2d5;
+}
+
+.purple{
+    background: #9e30ef;
+}
