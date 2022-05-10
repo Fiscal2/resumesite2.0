@@ -1,15 +1,15 @@
 @import "main.css";
 
 .layered-waves-blue{
-    background-image: url('assets/layered-waves-blue.svg')
+    background-image: url('assets/layered-waves-blue.svg');
 }
 
 .layered-waves-purple{
-    background-image: url('assets/layered-waves-purple.svg')
+    background-image: url('assets/layered-waves-purple.svg');
 }
 
 .layered-waves-green{
-  background-image: url('assets/layered-waves-green.svg')
+  background-image: url('assets/layered-waves-green.svg');
 }
 
 .waves-dark-purple{
